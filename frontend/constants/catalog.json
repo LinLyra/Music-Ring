@@ -1,0 +1,953 @@
+{
+  "instruments": [
+    {
+      "code": "pipa",
+      "name": "Pipa",
+      "enabled": true
+    },
+    {
+      "code": "suona",
+      "name": "Suona",
+      "enabled": true
+    },
+    {
+      "code": "guzheng",
+      "name": "Guzheng",
+      "enabled": true
+    },
+    {
+      "code": "erhu",
+      "name": "Erhu",
+      "enabled": true
+    },
+    {
+      "code": "dizi",
+      "name": "Dizi",
+      "enabled": true
+    },
+    {
+      "code": "piano",
+      "name": "Piano",
+      "enabled": true
+    },
+    {
+      "code": "guitar",
+      "name": "Guitar",
+      "enabled": true
+    },
+    {
+      "code": "violin",
+      "name": "Violin",
+      "enabled": true
+    },
+    {
+      "code": "flute",
+      "name": "Flute",
+      "enabled": true
+    },
+    {
+      "code": "bass",
+      "name": "Bass",
+      "enabled": true
+    }
+  ],
+  "keys": [
+    "C",
+    "C#",
+    "Db",
+    "D",
+    "D#",
+    "Eb",
+    "E",
+    "F",
+    "F#",
+    "Gb",
+    "G",
+    "G#",
+    "Ab",
+    "A",
+    "A#",
+    "Bb",
+    "B"
+  ],
+  "notesByInstrument": {
+    "pipa": [
+      {
+        "code": "do_low",
+        "label": "do",
+        "degree": 1,
+        "register": "low"
+      },
+      {
+        "code": "so_low",
+        "label": "so",
+        "degree": 5,
+        "register": "low"
+      },
+      {
+        "code": "la_low",
+        "label": "la",
+        "degree": 6,
+        "register": "low"
+      },
+      {
+        "code": "do",
+        "label": "do",
+        "degree": 1,
+        "register": "normal"
+      },
+      {
+        "code": "ri",
+        "label": "ri",
+        "degree": 2,
+        "register": "normal"
+      },
+      {
+        "code": "mi",
+        "label": "mi",
+        "degree": 3,
+        "register": "normal"
+      },
+      {
+        "code": "fa",
+        "label": "fa",
+        "degree": 4,
+        "register": "normal"
+      },
+      {
+        "code": "so",
+        "label": "so",
+        "degree": 5,
+        "register": "normal"
+      },
+      {
+        "code": "la",
+        "label": "la",
+        "degree": 6,
+        "register": "normal"
+      },
+      {
+        "code": "xi",
+        "label": "xi",
+        "degree": 7,
+        "register": "normal"
+      },
+      {
+        "code": "do_high",
+        "label": "do",
+        "degree": 1,
+        "register": "high"
+      },
+      {
+        "code": "ri_high",
+        "label": "ri",
+        "degree": 2,
+        "register": "high"
+      },
+      {
+        "code": "mi_high",
+        "label": "mi",
+        "degree": 3,
+        "register": "high"
+      },
+      {
+        "code": "fa_high",
+        "label": "fa",
+        "degree": 4,
+        "register": "high"
+      },
+      {
+        "code": "so_high",
+        "label": "so",
+        "degree": 5,
+        "register": "high"
+      }
+    ],
+    "suona": [
+      {
+        "code": "so_low",
+        "label": "so",
+        "degree": 5,
+        "register": "low"
+      },
+      {
+        "code": "la_low",
+        "label": "la",
+        "degree": 6,
+        "register": "low"
+      },
+      {
+        "code": "xi_low",
+        "label": "xi",
+        "degree": 7,
+        "register": "low"
+      },
+      {
+        "code": "do",
+        "label": "do",
+        "degree": 1,
+        "register": "normal"
+      },
+      {
+        "code": "ri",
+        "label": "ri",
+        "degree": 2,
+        "register": "normal"
+      },
+      {
+        "code": "mi",
+        "label": "mi",
+        "degree": 3,
+        "register": "normal"
+      },
+      {
+        "code": "fa",
+        "label": "fa",
+        "degree": 4,
+        "register": "normal"
+      },
+      {
+        "code": "so",
+        "label": "so",
+        "degree": 5,
+        "register": "normal"
+      },
+      {
+        "code": "la",
+        "label": "la",
+        "degree": 6,
+        "register": "normal"
+      }
+    ],
+    "guzheng": [
+      {
+        "code": "so_low",
+        "label": "so",
+        "degree": 5,
+        "register": "low"
+      },
+      {
+        "code": "la_low",
+        "label": "la",
+        "degree": 6,
+        "register": "low"
+      },
+      {
+        "code": "do",
+        "label": "do",
+        "degree": 1,
+        "register": "normal"
+      },
+      {
+        "code": "ri",
+        "label": "ri",
+        "degree": 2,
+        "register": "normal"
+      },
+      {
+        "code": "mi",
+        "label": "mi",
+        "degree": 3,
+        "register": "normal"
+      },
+      {
+        "code": "so",
+        "label": "so",
+        "degree": 5,
+        "register": "normal"
+      },
+      {
+        "code": "la",
+        "label": "la",
+        "degree": 6,
+        "register": "normal"
+      }
+    ],
+    "erhu": [
+      {
+        "code": "do",
+        "label": "do",
+        "degree": 1,
+        "register": "normal"
+      },
+      {
+        "code": "ri",
+        "label": "ri",
+        "degree": 2,
+        "register": "normal"
+      },
+      {
+        "code": "mi",
+        "label": "mi",
+        "degree": 3,
+        "register": "normal"
+      },
+      {
+        "code": "fa",
+        "label": "fa",
+        "degree": 4,
+        "register": "normal"
+      },
+      {
+        "code": "so",
+        "label": "so",
+        "degree": 5,
+        "register": "normal"
+      },
+      {
+        "code": "la",
+        "label": "la",
+        "degree": 6,
+        "register": "normal"
+      },
+      {
+        "code": "xi",
+        "label": "xi",
+        "degree": 7,
+        "register": "normal"
+      },
+      {
+        "code": "do_high",
+        "label": "do",
+        "degree": 1,
+        "register": "high"
+      },
+      {
+        "code": "ri_high",
+        "label": "ri",
+        "degree": 2,
+        "register": "high"
+      },
+      {
+        "code": "mi_high",
+        "label": "mi",
+        "degree": 3,
+        "register": "high"
+      },
+      {
+        "code": "fa_high",
+        "label": "fa",
+        "degree": 4,
+        "register": "high"
+      },
+      {
+        "code": "so_high",
+        "label": "so",
+        "degree": 5,
+        "register": "high"
+      }
+    ],
+    "dizi": [
+      {
+        "code": "so_low",
+        "label": "so",
+        "degree": 5,
+        "register": "low"
+      },
+      {
+        "code": "la_low",
+        "label": "la",
+        "degree": 6,
+        "register": "low"
+      },
+      {
+        "code": "xi_low",
+        "label": "xi",
+        "degree": 7,
+        "register": "low"
+      },
+      {
+        "code": "do",
+        "label": "do",
+        "degree": 1,
+        "register": "normal"
+      },
+      {
+        "code": "ri",
+        "label": "ri",
+        "degree": 2,
+        "register": "normal"
+      },
+      {
+        "code": "mi",
+        "label": "mi",
+        "degree": 3,
+        "register": "normal"
+      },
+      {
+        "code": "fa",
+        "label": "fa",
+        "degree": 4,
+        "register": "normal"
+      },
+      {
+        "code": "so",
+        "label": "so",
+        "degree": 5,
+        "register": "normal"
+      },
+      {
+        "code": "la",
+        "label": "la",
+        "degree": 6,
+        "register": "normal"
+      },
+      {
+        "code": "xi",
+        "label": "xi",
+        "degree": 7,
+        "register": "normal"
+      },
+      {
+        "code": "do_high",
+        "label": "do",
+        "degree": 1,
+        "register": "high"
+      },
+      {
+        "code": "ri_high",
+        "label": "ri",
+        "degree": 2,
+        "register": "high"
+      },
+      {
+        "code": "mi_high",
+        "label": "mi",
+        "degree": 3,
+        "register": "high"
+      },
+      {
+        "code": "fa_high",
+        "label": "fa",
+        "degree": 4,
+        "register": "high"
+      },
+      {
+        "code": "so_high",
+        "label": "so",
+        "degree": 5,
+        "register": "high"
+      },
+      {
+        "code": "la_high",
+        "label": "la",
+        "degree": 6,
+        "register": "high"
+      }
+    ],
+    "piano": [
+      {
+        "code": "do_low",
+        "label": "do",
+        "degree": 1,
+        "register": "low"
+      },
+      {
+        "code": "ri_low",
+        "label": "ri",
+        "degree": 2,
+        "register": "low"
+      },
+      {
+        "code": "mi_low",
+        "label": "mi",
+        "degree": 3,
+        "register": "low"
+      },
+      {
+        "code": "fa_low",
+        "label": "fa",
+        "degree": 4,
+        "register": "low"
+      },
+      {
+        "code": "so_low",
+        "label": "so",
+        "degree": 5,
+        "register": "low"
+      },
+      {
+        "code": "la_low",
+        "label": "la",
+        "degree": 6,
+        "register": "low"
+      },
+      {
+        "code": "xi_low",
+        "label": "xi",
+        "degree": 7,
+        "register": "low"
+      },
+      {
+        "code": "do",
+        "label": "do",
+        "degree": 1,
+        "register": "normal"
+      },
+      {
+        "code": "ri",
+        "label": "ri",
+        "degree": 2,
+        "register": "normal"
+      },
+      {
+        "code": "mi",
+        "label": "mi",
+        "degree": 3,
+        "register": "normal"
+      },
+      {
+        "code": "fa",
+        "label": "fa",
+        "degree": 4,
+        "register": "normal"
+      },
+      {
+        "code": "so",
+        "label": "so",
+        "degree": 5,
+        "register": "normal"
+      },
+      {
+        "code": "la",
+        "label": "la",
+        "degree": 6,
+        "register": "normal"
+      },
+      {
+        "code": "xi",
+        "label": "xi",
+        "degree": 7,
+        "register": "normal"
+      },
+      {
+        "code": "do_high",
+        "label": "do",
+        "degree": 1,
+        "register": "high"
+      },
+      {
+        "code": "ri_high",
+        "label": "ri",
+        "degree": 2,
+        "register": "high"
+      },
+      {
+        "code": "mi_high",
+        "label": "mi",
+        "degree": 3,
+        "register": "high"
+      },
+      {
+        "code": "fa_high",
+        "label": "fa",
+        "degree": 4,
+        "register": "high"
+      },
+      {
+        "code": "so_high",
+        "label": "so",
+        "degree": 5,
+        "register": "high"
+      },
+      {
+        "code": "la_high",
+        "label": "la",
+        "degree": 6,
+        "register": "high"
+      },
+      {
+        "code": "xi_high",
+        "label": "xi",
+        "degree": 7,
+        "register": "high"
+      }
+    ],
+    "guitar": [
+      {
+        "code": "do_low",
+        "label": "do",
+        "degree": 1,
+        "register": "low"
+      },
+      {
+        "code": "ri_low",
+        "label": "ri",
+        "degree": 2,
+        "register": "low"
+      },
+      {
+        "code": "mi_low",
+        "label": "mi",
+        "degree": 3,
+        "register": "low"
+      },
+      {
+        "code": "fa_low",
+        "label": "fa",
+        "degree": 4,
+        "register": "low"
+      },
+      {
+        "code": "so_low",
+        "label": "so",
+        "degree": 5,
+        "register": "low"
+      },
+      {
+        "code": "la_low",
+        "label": "la",
+        "degree": 6,
+        "register": "low"
+      },
+      {
+        "code": "xi_low",
+        "label": "xi",
+        "degree": 7,
+        "register": "low"
+      },
+      {
+        "code": "do",
+        "label": "do",
+        "degree": 1,
+        "register": "normal"
+      },
+      {
+        "code": "ri",
+        "label": "ri",
+        "degree": 2,
+        "register": "normal"
+      },
+      {
+        "code": "mi",
+        "label": "mi",
+        "degree": 3,
+        "register": "normal"
+      },
+      {
+        "code": "fa",
+        "label": "fa",
+        "degree": 4,
+        "register": "normal"
+      },
+      {
+        "code": "so",
+        "label": "so",
+        "degree": 5,
+        "register": "normal"
+      },
+      {
+        "code": "la",
+        "label": "la",
+        "degree": 6,
+        "register": "normal"
+      },
+      {
+        "code": "xi",
+        "label": "xi",
+        "degree": 7,
+        "register": "normal"
+      },
+      {
+        "code": "do_high",
+        "label": "do",
+        "degree": 1,
+        "register": "high"
+      },
+      {
+        "code": "ri_high",
+        "label": "ri",
+        "degree": 2,
+        "register": "high"
+      },
+      {
+        "code": "mi_high",
+        "label": "mi",
+        "degree": 3,
+        "register": "high"
+      },
+      {
+        "code": "fa_high",
+        "label": "fa",
+        "degree": 4,
+        "register": "high"
+      },
+      {
+        "code": "so_high",
+        "label": "so",
+        "degree": 5,
+        "register": "high"
+      },
+      {
+        "code": "la_high",
+        "label": "la",
+        "degree": 6,
+        "register": "high"
+      },
+      {
+        "code": "xi_high",
+        "label": "xi",
+        "degree": 7,
+        "register": "high"
+      }
+    ],
+    "violin": [
+      {
+        "code": "do",
+        "label": "do",
+        "degree": 1,
+        "register": "normal"
+      },
+      {
+        "code": "ri",
+        "label": "ri",
+        "degree": 2,
+        "register": "normal"
+      },
+      {
+        "code": "mi",
+        "label": "mi",
+        "degree": 3,
+        "register": "normal"
+      },
+      {
+        "code": "fa",
+        "label": "fa",
+        "degree": 4,
+        "register": "normal"
+      },
+      {
+        "code": "so",
+        "label": "so",
+        "degree": 5,
+        "register": "normal"
+      },
+      {
+        "code": "la",
+        "label": "la",
+        "degree": 6,
+        "register": "normal"
+      },
+      {
+        "code": "xi",
+        "label": "xi",
+        "degree": 7,
+        "register": "normal"
+      },
+      {
+        "code": "do_high",
+        "label": "do",
+        "degree": 1,
+        "register": "high"
+      },
+      {
+        "code": "ri_high",
+        "label": "ri",
+        "degree": 2,
+        "register": "high"
+      },
+      {
+        "code": "mi_high",
+        "label": "mi",
+        "degree": 3,
+        "register": "high"
+      },
+      {
+        "code": "fa_high",
+        "label": "fa",
+        "degree": 4,
+        "register": "high"
+      },
+      {
+        "code": "so_high",
+        "label": "so",
+        "degree": 5,
+        "register": "high"
+      },
+      {
+        "code": "la_high",
+        "label": "la",
+        "degree": 6,
+        "register": "high"
+      },
+      {
+        "code": "xi_high",
+        "label": "xi",
+        "degree": 7,
+        "register": "high"
+      }
+    ],
+    "flute": [
+      {
+        "code": "do",
+        "label": "do",
+        "degree": 1,
+        "register": "normal"
+      },
+      {
+        "code": "ri",
+        "label": "ri",
+        "degree": 2,
+        "register": "normal"
+      },
+      {
+        "code": "mi",
+        "label": "mi",
+        "degree": 3,
+        "register": "normal"
+      },
+      {
+        "code": "fa",
+        "label": "fa",
+        "degree": 4,
+        "register": "normal"
+      },
+      {
+        "code": "so",
+        "label": "so",
+        "degree": 5,
+        "register": "normal"
+      },
+      {
+        "code": "la",
+        "label": "la",
+        "degree": 6,
+        "register": "normal"
+      },
+      {
+        "code": "xi",
+        "label": "xi",
+        "degree": 7,
+        "register": "normal"
+      },
+      {
+        "code": "do_high",
+        "label": "do",
+        "degree": 1,
+        "register": "high"
+      },
+      {
+        "code": "ri_high",
+        "label": "ri",
+        "degree": 2,
+        "register": "high"
+      },
+      {
+        "code": "mi_high",
+        "label": "mi",
+        "degree": 3,
+        "register": "high"
+      },
+      {
+        "code": "fa_high",
+        "label": "fa",
+        "degree": 4,
+        "register": "high"
+      },
+      {
+        "code": "so_high",
+        "label": "so",
+        "degree": 5,
+        "register": "high"
+      },
+      {
+        "code": "la_high",
+        "label": "la",
+        "degree": 6,
+        "register": "high"
+      },
+      {
+        "code": "xi_high",
+        "label": "xi",
+        "degree": 7,
+        "register": "high"
+      }
+    ],
+    "bass": [
+      {
+        "code": "do_low",
+        "label": "do",
+        "degree": 1,
+        "register": "low"
+      },
+      {
+        "code": "ri_low",
+        "label": "ri",
+        "degree": 2,
+        "register": "low"
+      },
+      {
+        "code": "mi_low",
+        "label": "mi",
+        "degree": 3,
+        "register": "low"
+      },
+      {
+        "code": "fa_low",
+        "label": "fa",
+        "degree": 4,
+        "register": "low"
+      },
+      {
+        "code": "so_low",
+        "label": "so",
+        "degree": 5,
+        "register": "low"
+      },
+      {
+        "code": "la_low",
+        "label": "la",
+        "degree": 6,
+        "register": "low"
+      },
+      {
+        "code": "xi_low",
+        "label": "xi",
+        "degree": 7,
+        "register": "low"
+      },
+      {
+        "code": "do",
+        "label": "do",
+        "degree": 1,
+        "register": "normal"
+      },
+      {
+        "code": "ri",
+        "label": "ri",
+        "degree": 2,
+        "register": "normal"
+      },
+      {
+        "code": "mi",
+        "label": "mi",
+        "degree": 3,
+        "register": "normal"
+      },
+      {
+        "code": "fa",
+        "label": "fa",
+        "degree": 4,
+        "register": "normal"
+      },
+      {
+        "code": "so",
+        "label": "so",
+        "degree": 5,
+        "register": "normal"
+      },
+      {
+        "code": "la",
+        "label": "la",
+        "degree": 6,
+        "register": "normal"
+      },
+      {
+        "code": "xi",
+        "label": "xi",
+        "degree": 7,
+        "register": "normal"
+      }
+    ]
+  }
+}

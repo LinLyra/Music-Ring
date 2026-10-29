@@ -1,0 +1,56 @@
+import type { ConnectionStatus } from "@/types/domain";
+import type { RingConnection } from "@/types/ring";
+
+const CONFIG: Record<
+  ConnectionStatus,
+  { label: string; dot: string; text: string; bg: string; border: string }
+> = {
+  connected: {
+    label: "Connected",
+    dot: "bg-ok",
+    text: "text-ok",
+    bg: "bg-ok-soft",
+    border: "border-ok/30",
+  },
+  connecting: {
+    label: "Connecting",
+    dot: "bg-info animate-pulse",
+    text: "text-info",
+    bg: "bg-info-soft",
+    border: "border-info/30",
+  },
+  reconnecting: {
+    label: "Reconnecting",
+    dot: "bg-warn animate-pulse",
+    text: "text-warn",
+    bg: "bg-warn-soft",
+    border: "border-warn/30",
+  },
+  disconnected: {
+    label: "Disconnected",
+    dot: "bg-danger",
+    text: "text-danger",
+    bg: "bg-danger-soft",
+    border: "border-danger/30",
+  },
+};
+
+export default function ConnectionBadge({
+  status,
+  label,
+}: {
+  status: ConnectionStatus | RingConnection;
+  label?: string;
+}) {
+  const c = CONFIG[status];
+  return (
+    <span
+      className={`inline-flex items-center gap-2 rounded-full border px-3.5 py-1.5 text-sm font-medium ${c.bg} ${c.border} ${c.text}`}
+      role="status"
+      aria-live="polite"
+    >
+      <span className={`h-2.5 w-2.5 rounded-full ${c.dot}`} aria-hidden />
+      {label ? `${label} ${c.label}` : c.label}
+    </span>
+  );
+}

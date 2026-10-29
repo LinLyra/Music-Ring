@@ -1,0 +1,75 @@
+{
+  "server": {
+    "port": 8080,
+    "host": "0.0.0.0"
+  },
+  "audio": {
+    "rootDir": "audio"
+  },
+  "playback": {
+    "device": "default",
+    "queueMode": "serial",
+    "maxQueue": 32
+  },
+  "gesture": {
+    "method": "hmm",
+    "expireMs": 1000,
+    "fallbackTechnique": "normal",
+    "oneShot": true,
+    "mapping": {
+      "甩-hmm": "saoxian",
+      "捏": "saoxian",
+      "响指": "rou",
+      "甩": "shuang",
+      "雨刮器": "fen",
+      "晃": "lunzhi"
+    },
+    "instrumentMapping": {},
+    "gestureTriggers": [],
+    "techniques": {},
+    "minConfidence": 0.0,
+    "filter": {
+      "enabled": true,
+      "sampleRate": 25,
+      "cutoffHz": 10,
+      "order": 2,
+      "medianKernel": 5
+    },
+    "dtw": {
+      "thresholdMultiplier": 1.5,
+      "lengthRatioMin": 0.4,
+      "lengthRatioMax": 2.5
+    },
+    "hmm": {
+      "modelDir": "vendor/models",
+      "nStates": 6,
+      "windowSize": 8,
+      "windowOverlap": 4
+    }
+  },
+  "history": {
+    "maxSize": 100
+  },
+  "cors": {
+    "allowOrigins": [
+      "http://localhost:3000",
+      "http://10.0.2.2:5173"
+    ]
+  },
+  "ring": {
+    "enabled": false,
+    "address": "",
+    "sdk": "openzilo"
+  },
+  "auth": {
+    "enabled": false,
+    "token": ""
+  },
+  "voice": {
+    "enabled": false,
+    "stepfun_api_key": "",
+    "stepfun_base_url": "https://api.stepfun.com/v1",
+    "asr_model": "stepaudio-2.5-asr",
+    "llm_model": "step-3.7-flash"
+  }
+}

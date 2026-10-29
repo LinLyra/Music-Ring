@@ -1,0 +1,65 @@
+{
+  "id": "wuchuang-tianjia",
+  "title": "误闯天家",
+  "key": "D",
+  "timeSignature": "4/4",
+  "tempo": 80,
+  "instrument": "pipa",
+  "notes": [
+    {"code": "do", "duration": 1, "lyric": "误"},
+    {"code": "la_low", "duration": 0.5, "lyric": "闯"},
+    {"code": "mi", "duration": 0.25, "lyric": "天"},
+    {"code": "ri", "duration": 0.25, "lyric": "家"},
+    {"code": "do", "duration": 1, "lyric": "劝"},
+    {"code": "la_low", "duration": 1, "lyric": "余"},
+
+    {"code": "mi", "duration": 0.5, "lyric": "放"},
+    {"code": "ri", "duration": 0.5, "lyric": "下"},
+    {"code": "mi", "duration": 0.5, "lyric": "手"},
+    {"code": "so", "duration": 0.5, "lyric": "中"},
+    {"code": "mi", "duration": 1, "lyric": "砂"},
+    {"code": "ri", "duration": 0.5, "lyric": "张"},
+    {"code": "do", "duration": 0.5, "lyric": "口"},
+
+    {"code": "la_low", "duration": 0.5, "lyric": "欲"},
+    {"code": "do", "duration": 0.5, "lyric": "唱"},
+    {"code": "ri", "duration": 0.5, "lyric": "声"},
+    {"code": "mi", "duration": 0.5, "lyric": "却"},
+    {"code": "ri", "duration": 1, "lyric": "哑"},
+    {"code": "do", "duration": 0.5, "lyric": "粉"},
+    {"code": "ri", "duration": 0.5, "lyric": "面"},
+
+    {"code": "mi", "duration": 1.5, "lyric": "披"},
+    {"code": "ri", "duration": 0.25, "lyric": "衣"},
+    {"code": "mi", "duration": 0.25, "lyric": "叫"},
+    {"code": "so", "duration": 0.5, "lyric": "个"},
+    {"code": "mi", "duration": 0.5, "lyric": "假"},
+    {"code": "ri", "duration": 0.5, "lyric": "怜"},
+    {"code": "do", "duration": 0.5, "lyric": "余"},
+
+    {"code": "la_low", "duration": 0.5, "lyric": "来"},
+    {"code": "do", "duration": 0.5, "lyric": "安"},
+    {"code": "ri", "duration": 0.5, "lyric": "座"},
+    {"code": "mi", "duration": 0.5, "lyric": "下"},
+    {"code": "ri", "duration": 1, "lyric": "不"},
+    {"code": "do", "duration": 0.5, "lyric": "敢"},
+    {"code": "ri", "duration": 0.5, "lyric": "沾"},
+
+    {"code": "mi", "duration": 1.5, "lyric": "染"},
+    {"code": "ri", "duration": 0.25, "lyric": "佛"},
+    {"code": "mi", "duration": 0.25, "lyric": "前"},
+    {"code": "so", "duration": 0.5, "lyric": ""},
+    {"code": "mi", "duration": 0.5, "lyric": "茶"},
+    {"code": "ri", "duration": 0.5, "lyric": "只"},
+    {"code": "mi", "duration": 0.5, "lyric": "作"},
+
+    {"code": "so", "duration": 0.5, "lyric": "凡"},
+    {"code": "mi", "duration": 0.5, "lyric": "人"},
+    {"code": "ri", "duration": 0.5, "lyric": "赴"},
+    {"code": "mi", "duration": 0.5, "lyric": "雪"},
+    {"code": "ri", "duration": 1, "lyric": "月"},
+    {"code": "do", "duration": 1, "lyric": "风"},
+
+    {"code": "la_low", "duration": 3, "lyric": "花"}
+  ]
+}

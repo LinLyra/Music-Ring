@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.next/
+dist/
+.expo/
+.cursor/
+
+# Friend-trained gesture data / training suite — not published
+backend/hmm_gesture/
+backend/vendor/gestures/
+backend/vendor/gestures-方向/
+backend/vendor/models/
+backend/vendor/models-方向/
+backend/vendor/ring_sound_SDK/

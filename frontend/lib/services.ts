@@ -1,0 +1,59 @@
+// 各后端接口的服务函数。仅封装电脑网站前端需要的读取接口
+// （health / config / state / history）；play 与 ring/gesture 属手机端/硬件端，不在此调用。
+
+import { apiGet, apiPost } from "@/lib/apiClient";
+import { HISTORY_LIMIT } from "@/constants/enums";
+import type {
+  AppConfig,
+  CurrentState,
+  Health,
+  HistoryItem,
+  HistoryPage,
+  ScoreDetail,
+  ScoreState,
+} from "@/types/domain";
+
+export function getHealth(signal?: AbortSignal): Promise<Health> {
+  return apiGet<Health>("/health", { signal });
+}
+
+export function getConfig(signal?: AbortSignal): Promise<AppConfig> {
+  return apiGet<AppConfig>("/config", { signal });
+}
+
+export function getState(signal?: AbortSignal): Promise<CurrentState> {
+  return apiGet<CurrentState>("/state", { signal });
+}
+
+export function getHistory(
+  limit: number = HISTORY_LIMIT,
+  signal?: AbortSignal,
+): Promise<HistoryPage> {
+  return apiGet<HistoryPage>("/history", { query: { limit }, signal });
+}
+
+export function getScore(
+  scoreId: string,
+  signal?: AbortSignal,
+): Promise<ScoreDetail> {
+  return apiGet<ScoreDetail>(`/scores/${encodeURIComponent(scoreId)}`, { signal });
+}
+
+export function getActiveScoreState(signal?: AbortSignal): Promise<ScoreState> {
+  return apiGet<ScoreState>("/scores/active", { signal });
+}
+
+export function playNote(body: {
+  instrument: string;
+  key: string;
+  note: string;
+}): Promise<HistoryItem> {
+  return apiPost<HistoryItem>("/play", body);
+}
+
+export function updateSelection(body: {
+  instrument: string | null;
+  key: string | null;
+}): Promise<{ instrument: string | null; key: string | null }> {
+  return apiPost("/selection", body);
+}
